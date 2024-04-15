@@ -1,0 +1,305 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+.Container{
+    position: relative;
+    display: flex;
+}
+.containerchild{
+    position: absolute;
+    display: flex;
+}
+.flexclass2{
+    display: flex;
+    position: relative;
+}
+.link1{
+    position: absolute;
+    left: 450px;
+}
+.link2{
+    position: absolute;
+    left: 500px;
+}
+.link3{
+    position: absolute;
+    left: 570px;
+}
+.link4{
+    position: absolute;
+    left: 650px;
+}
+.link5{
+    position: absolute;
+    left: 700px;
+}
+.link6{
+    position: absolute;
+    left: 750px;
+}
+.gapclass {
+    gap: 5px;
+    border-radius: 100px;
+    background-color: rgb(254, 253, 253);
+    padding: 2px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+.flexclass {
+    display: flex;
+}
+
+.flexclass2 {
+    justify-content: space-evenly;
+}
+
+.parent {
+    display: flex;
+    gap: 20px;
+}
+
+#carouselExample {
+    height: 80vh;
+    width: 98%;
+    margin: auto;
+}
+
+.carousel-item img {
+    height: 70vh;
+    object-fit: cover;
+}
+
+.btn {
+    position: relative;
+}
+
+.btn2 {
+    position: absolute;
+    top: 320px;
+    padding: 5px;
+    background-color: rgb(43, 36, 36);
+    color: white;
+    border-style: none;
+}
+
+.div2 {
+    padding: 0px 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.body1 {
+    display: inline;
+}
+
+.body1 i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.cardparent {
+    display: flex;
+    align-items: center;
+}
+
+.card3 {
+    border-style: none;
+    display: flex;
+}
+
+.cardparent {
+    width: 60vh;
+    object-fit: cover;
+
+}
+
+.mobileproducts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.MP {
+    padding-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.GTS {
+    padding-right: 30px;
+}
+
+.card {
+    display: flex;
+}
+
+.cardparent22 {
+    display: flex;
+    padding: 0px 20px;
+    border-radius: 0px;
+    gap: 10px;
+}
+
+.card-img-top {
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.crds{
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+}
+.color {
+    color: rgb(171, 171, 235);
+}
+
+.MainWatchproducts {
+    margin-top: 20px;
+}
+
+.watchproducts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider2 {
+    background-color: rgb(226, 226, 255);
+    width:auto;
+    height: 350px;
+    margin-top: 30px;
+    object-fit: cover;
+}
+
+.leftside {
+    position: relative;
+}
+
+.leftsidechild1 {
+    position: absolute;
+    left: 203px;
+    font-family: 'Times New Roman', Times, serif;
+    top: 50px;
+}
+
+.leftsidechild2 {
+    position: absolute;
+    left: 200px;
+    margin-top: 30px;
+    font-size: 60px;
+    top: 40px;
+}
+
+.leftsidechild3 {
+    position: absolute;
+    left: 200px;
+    margin-top: 80px;
+    font-size: 50px;
+    top: 60px;
+}
+
+.leftsidechild4 {
+    position: absolute;
+    left: 203px;
+    top: 220px;
+    background-color: black;
+    color: white;
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.rightside {
+    position: relative;
+}
+
+.rsimage {
+    position: absolute;
+    left: 600px;
+    height: 380px;
+}
+.allconnecteddevices {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.gamingsetup {
+    display: flex;
+    gap: 60px;
+    padding: 0px 20px;
+}
+
+.card-img-top1 {
+    height: 70vh;
+    width: 80vh;
+    object-fit: cover;
+}
+.card-texts{
+    margin-top: 10px;
+    padding-left: 10px;
+    color: rgb(182, 156, 156);
+}
+.color2{
+    width: 400px;
+    padding-left: 10px;
+}
+.color{
+    padding-left: 10px;
+    color: black;
+}
+.text-centee{
+    margin-top: 15px;
+}
+.subscribebox{
+    width: 1000px;
+    height: 90px;
+    background-color: black;
+    margin: auto;
+    position: relative;
+    padding: 5px;
+}
+.leftside2{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+.rightside2{
+    position: relative;
+}
+.holder{
+    position: absolute;
+    right: 150px;
+    top: 30px;
+    padding: 4px;
+    width: 330px;
+}
+.holder2{
+    position: absolute;
+    right: 31px;
+    color: white;
+    top: 31px;
+    background-color: rgb(134, 134, 219);
+    padding: 5px;
+    width: 120px;
+    border-style: none;
+}
+.soi{
+    text-align:center;
+    margin-top: 20px;
+}
+.insta{
+    height: 70vh;
+    object-fit: cover;
+}
+.color1{
+   color: rgb(159, 159, 231);
+}

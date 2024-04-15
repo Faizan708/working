@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(190, 204, 190);
+}
+.Container{
+    width: 400px;
+    background-color:white;
+    border-radius: 15px; 
+    margin: auto;
+    padding: 5px;
+    margin-top: 10px;
+}
+.Parent{
+    width: 380px;
+    padding: 10px;
+    background-color: rgb(187, 191, 187);;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5px;
+}
+.image{
+    position: relative;
+    text-align: center;
+}
+.imgdesign{
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    /* border: 2px solid rgb(250, 245, 245); */
+    padding: 2px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin-top: 15px;
+}
+.span{
+    background-color: rgb(57, 125, 57);
+    position: absolute;
+    border-radius: 100px;
+    height: 13px;
+    width: 13px;
+    border: 2px solid white;
+    left: 186px;
+    top: 54px;
+}
+.username{
+    position: relative;
+}
+.gap{
+    margin-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ri-close-fill{
+    position: absolute;
+    bottom: 153px;
+    left: 345px;
+}
+.iconparent{
+    padding: 5px;
+}
+.icon1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.ri-video-on-line, .ri-phone-line, .ri-customer-service-fill{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 100px;
+    border-color: 1px solid white;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+.parent2{
+    padding: 5px;
+}
+.to{
+    text-align: center;
+    margin-top: 15px;
+}
+.chat{
+    display: flex;
+    justify-content: flex-end;
+}
+.para{
+    padding: 8px;
+    margin-top: 10px;
+    background-color: rgb(206, 206, 244);
+    border-style: none;
+    border-radius: 9px 9px 0px 9px;
+}
+.time1{
+    position: relative;
+}
+.timechild{
+    position: absolute;
+    font-size: 8px;
+    left: 340px;
+    bottom: 0px;
+}
+.ri-share-forward-line{
+    position: absolute;
+    left: 110px;
+    bottom: 8px;
+}
+.voice{
+    display: flex;
+    justify-content:flex-start ;
+    margin-top: 15px;
+    
+}
+.ri-play-large-fill, .ri-voiceprint-fill{
+    
+    border-style: none;
+    align-items: flex-start;
+}
+.ri-play-large-fill{
+    background-color: rgb(194, 194, 223);
+    border-radius: 100px;
+    padding: 2px;
+    align-items: flex-start;
+}
+.btnclass{
+    height: 30px;
+    width: 140px;
+    border-radius: 9px 9px 9px 0px;
+    border-style: none;
+}
+.timechild2{
+    position: absolute;
+    font-size: 8px;
+    right: 10px;
+    bottom: 1px;
+    color: rgb(58, 33, 33);
+}
+.ri-voiceprint-fill1{
+    color: white;
+}
+.voiceShareBtn{
+    position: absolute;
+    left: 9px;
+}
+.fillfull{
+    color: rgb(182, 177, 167);
+}
+.parent4{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.inp{
+    height: 40px;
+    width: 350px;
+    border-radius: 6px;
+    border-style: none;
+    background-color: rgb(204, 211, 217);
+    margin-top: 10px;
+    padding-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-around;
+}
+.ri-link{
+    position: absolute;
+    left: 25px;
+    top: 22px;
+}
+.ri-mic-line{
+    position: absolute;
+    right: 30px;
+    top: 22px;
+}
+.ri-emotion-line{
+    position: absolute;
+    right: 56px;
+    top: 22px;
+}

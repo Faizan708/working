@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-b0x;
+}
+.parent{
+    height: 270px;
+    background-color: rgb(115, 77, 77);
+    padding: 10px;
+}
+.box{
+    padding: 20px;
+    height: 151px;
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+
+}
+.card image{
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    
+}

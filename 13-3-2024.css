@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbackgroundcolor {
+    background-color: rgb(155, 154, 154);
+}
+
+.color1 {
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.color2 {
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.color3 {
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.color4 {
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.color5 {
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-itemhome {
+    display: flex;
+}
+
+.CNCclass {
+    position: relative;
+}
+
+.CNCchild {
+    position: absolute;
+    left: 600px;
+}
+
+.iconcss {
+    background-color: white;
+    border-radius: 100px;
+    padding: 6px;
+    border-color: black;
+}
+
+.firstimage {
+    height: 660px;
+    width: 60px;
+}
+
+.parentcarosel {
+    position: relative;
+}
+
+.childcarosel {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.servicesproduct {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 300px;
+    left: 80px;
+}
+
+.d1 {
+    background-color: rgb(206, 206, 63);
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+}
+
+.d2 {
+    background-color: green;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+}
+.divparent2{
+    border: 10px solid red;
+}

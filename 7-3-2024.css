@@ -1,0 +1,141 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body{
+    background-color: rgb(184, 185, 180);
+}
+.maincontainer {
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 20px 20px 20px;
+
+}
+.parent{
+    background-color: rgb(177, 177, 175);
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.imgdesign{
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    margin: 0px 0px 0px 170px;
+    position: relative;
+    border: 5px solid rgb(25, 217, 25);
+}
+.span1{
+    color: red;
+    border-radius: 100px;
+    height: 20px;
+    width: 20px;
+    position:absolute;
+    right: 400px;
+    left: 650px;
+    bottom: 450px;
+    border: 2px solid white;
+    background-color: rgb(25, 217, 25);
+}
+.h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.ri-close-line{
+    position: absolute;
+    top: 50px;
+    right: 420px;
+    cursor: pointer;
+}
+.icons{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    gap: 5px;
+}
+.img{
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 81px;
+}
+.child1{
+    gap: 5px;
+}
+.ri-vidicon-line{
+    border-radius: 90px;
+    border: 2px solid white;
+    background-color: white;
+}
+.ri-phone-line{
+    border-radius: 90px;
+    border: 2px solid white;
+    background-color: white;
+} */
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+body{
+    /* background-color: rgb(184, 185, 180); */
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.outer{
+    width: 25%;
+    border: 1px solid;
+    background-color: white;
+    margin: 20px auto;
+}
+.card{
+    background-color: #ededed;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+.imgdesign{
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    position: relative;
+    border: 5px solid rgb(25, 217, 25);
+}
+.cros{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+.cardBody{
+    display: flex;
+    justify-content: center;
+     border-top: 10px auto;
+}
+.ri-close-line{
+    border-radius: 100px;
+    border: 1px solid black;
+    border-top: 10px auto;
+}
+

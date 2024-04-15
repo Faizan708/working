@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.Container {
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.Child {
+    padding: 5px;
+}
+
+.font {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.child2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.Budget {
+    color: rgb(80, 110, 110);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.aed {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.child3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+}
+
+.Timeline {
+    color: rgb(80, 110, 110);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.child4 {
+    border: 2px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: rgb(198, 240, 226);
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.Project {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(39, 53, 48);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.child5 {
+    margin-top: 10px;
+
+}
+
+.dead {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(80, 166, 166);
+}
+
+.child6 {
+    display: flex;
+    width: auto;
+    border-radius: 10px;
+    height: 70px;
+    position: relative;
+    background-color: red;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.pi {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid;
+    justify-content: space-between;
+
+}
+
+.P1 {
+    position: absolute;
+    z-index: 2;
+    left: 20px;
+    border-color: white;
+}
+
+.P2 {
+    position: absolute;
+    z-index: 5;
+    left: 40px;
+    border-color: white;
+}
+
+.P3 {
+    position: absolute;
+    z-index: 8;
+    left: 60px;
+    border-color: white;
+}
+
+.P4 {
+    position: absolute;
+    z-index: 11;
+    left: 80px;
+    border-color: white;
+
+}
+
+.members {
+    position: absolute;
+    z-index: 13;
+    left: 130px;
+    color: white;
+    font-size: 16px;
+}
+.child7{
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 25px;
+}
+.view{
+    border-radius: 5px;
+    border-color: blue;
+    background-color: antiquewhite;
+    padding: 5px;
+}
